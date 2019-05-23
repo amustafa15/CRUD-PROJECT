@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane fx:id="productPaneHomepagePane" prefHeight="200.0" prefWidth="204.0" xmlns:fx="http://javafx.com/fxml" stylesheets="@StoreHomePageCSS.css">
+        <children>
+            <ImageView fx:id="quickLookImageView" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+            <Label fx:id="quickLookLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="164.0" prefHeight="20.0" prefWidth="179.0" text="Product name " textAlignment="CENTER"/>
+            <Button fx:id="quickLookBtn" layoutX="73.0" layoutY="125.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="60.0" text="Buy Now">
+                <font>
+                    <Font size="10.0"/>
+                </font>
+            </Button>
+        </children>
+    </StackPane>
+<!--<BorderPane fx:id="borderPane" xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+<!--</BorderPane>-->
