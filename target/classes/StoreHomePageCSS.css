@@ -1,0 +1,21 @@
+#hb {
+    -fx-background-color: #000000;
+}
+#messagingBar {
+    -fx-background-color: #000000;
+}
+#messageSupports{
+    -fx-background-color: #000000;
+}
+.menu-item .label{
+    -fx-text-fill: #000000;
+}
+.productPaneHomepagePane{
+    -fx-border-color: red;
+}
+.menu-button .label{
+    -fx-text-fill: #fff;
+}
+.context-menu{
+    -fx-background-color: black;
+}

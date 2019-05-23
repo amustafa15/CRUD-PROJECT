@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.geometry.Insets?>
+<BorderPane fx:id="pane" prefHeight="475.0" prefWidth="300.0" stylesheets="@StoreHomePageCSS.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <HBox fx:id="messagingBar" prefHeight="61.0" prefWidth="300.0" BorderPane.alignment="CENTER" />
+    </top>
+    <bottom>
+        <HBox prefHeight="37.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+            <children>
+                <StackPane prefHeight="19.0" prefWidth="40.0">
+                    <children>
+                        <ImageView fx:id="attachImage" fitHeight="19.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                            <Image url="/paperclip.png">
+                            </Image>
+                            <StackPane.margin>
+                                <Insets bottom="10.0" />
+                            </StackPane.margin>
+                        </ImageView>
+                    </children></StackPane>
+                <TextField prefHeight="27.0" prefWidth="251.0" text="What can we help you with?" />
+                <StackPane prefHeight="19.0" prefWidth="40.0">
+                    <children>
+                        <ImageView fitHeight="19.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                            <Image url="send.png" />
+                            <StackPane.margin>
+                                <Insets bottom="10.0" />
+                            </StackPane.margin>
+                        </ImageView>
+                    </children></StackPane>
+            </children></HBox>
+    </bottom>
+</BorderPane>

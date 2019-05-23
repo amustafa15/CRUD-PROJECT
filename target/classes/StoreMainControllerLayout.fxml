@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:id="contentPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      alignment="CENTER" fx:controller="StoreMainController">
+    <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+
+</VBox>
+
